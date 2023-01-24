@@ -1,0 +1,134 @@
+@media (max-width: 75em) {
+  .container {
+    padding: 0 5.2rem;
+  }
+  .general-header h2 {
+    font-size: 8.4rem;
+  }
+  .work-bar ul {
+    width: 30%;
+  }
+}
+
+@media (max-width: 62em) {
+  .home-section {
+    position: relative;
+  }
+  /* Using JS is necessary ! */
+  /* .nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: #000;
+    width: 100%;
+    opacity: 0;
+  }
+  .nav-bar ul li {
+    height: 2.4em;
+
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: left;
+    font-size: 1.2em;
+    border-bottom: solid 0.05rem #6c757d;
+  }
+  .nav-bar ul li:last-child {
+    border-bottom: none;
+  } */
+  /* About Section */
+  .about-words {
+    flex-wrap: wrap;
+  }
+  .about-description {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+  .about-information {
+    width: 100%;
+  }
+  .client-cards {
+    flex-wrap: wrap;
+  }
+  .client-card {
+    width: 100%;
+    margin-top: 1.6rem;
+  }
+  .work-bar ul {
+    width: 30%;
+  }
+}
+
+@media (max-width: 48em) {
+  .about-rating {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 50%;
+  }
+  .what-card {
+    width: 100%;
+    margin-top: 3.2rem;
+  }
+  .education {
+    display: block;
+  }
+  .skill-card-container {
+    display: block;
+  }
+  .skill-col {
+    width: 100%;
+  }
+  .contact-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-box {
+    text-align: center;
+    width: 100%;
+  }
+  .footer-icons ul {
+    justify-content: center;
+  }
+  .info {
+    justify-content: center;
+  }
+  .footer-container {
+    display: block;
+    text-align: center;
+  }
+  .form-contact {
+    width: 100%;
+  }
+  .general-header h2 {
+    font-size: 6.4rem;
+  }
+  .right-space {
+    width: 100%;
+    margin-top: 1.6rem;
+  }
+  .work-bar ul {
+    width: 60%;
+  }
+}
+
+@media (max-width: 38em) {
+  .container {
+    padding: 0 0.8rem;
+  }
+  .my-work {
+    display: block;
+  }
+  .work-col {
+    width: 100%;
+  }
+  .work-bar ul {
+    width: 60%;
+  }
+}
